@@ -1,6 +1,14 @@
 {
-  "/": "pages/index.js",
+  "/add-expense": "pages/add-expense.html",
+  "/api/expenses/[id]": "pages/api/expenses/[id].js",
+  "/api/expenses": "pages/api/expenses.js",
+  "/api/test": "pages/api/test.js",
+  "/dashboard": "pages/dashboard.html",
+  "/expense-list": "pages/expense-list.html",
+  "/": "pages/index.html",
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
   "/_document": "pages/_document.js",
-  "/api/expenses": "pages/api/expenses.js"
+  "/404": "pages/404.html"
 }
